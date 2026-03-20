@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Mobiscan.Analyzers.Android/Mobiscan.Analyzers.Android.csproj" />
+    <Project Path="src/Mobiscan.Analyzers.iOS/Mobiscan.Analyzers.iOS.csproj" />
+    <Project Path="src/Mobiscan.CLI/Mobiscan.CLI.csproj" />
+    <Project Path="src/Mobiscan.Core/Mobiscan.Core.csproj" />
+    <Project Path="src/Mobiscan.DependencyScanner/Mobiscan.DependencyScanner.csproj" />
+    <Project Path="src/Mobiscan.FixEngine/Mobiscan.FixEngine.csproj" />
+    <Project Path="src/Mobiscan.Reporting/Mobiscan.Reporting.csproj" />
+    <Project Path="src/Mobiscan.ReverseAnalyzer/Mobiscan.ReverseAnalyzer.csproj" />
+    <Project Path="src/Mobiscan.RuleEngine/Mobiscan.RuleEngine.csproj" />
+    <Project Path="src/Mobiscan.ScanEngine/Mobiscan.ScanEngine.csproj" />
+    <Project Path="src/Mobiscan.SecretScanner/Mobiscan.SecretScanner.csproj" />
+    <Project Path="src/Mobiscan.WatchMode/Mobiscan.WatchMode.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Mobiscan.Tests/Mobiscan.Tests.csproj" />
+  </Folder>
+</Solution>

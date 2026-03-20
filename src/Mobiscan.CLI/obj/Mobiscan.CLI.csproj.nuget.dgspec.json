@@ -1,0 +1,892 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\Mobiscan.CLI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj",
+        "projectName": "Mobiscan.Analyzers.Android",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj",
+        "projectName": "Mobiscan.Analyzers.iOS",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\Mobiscan.CLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\Mobiscan.CLI.csproj",
+        "projectName": "Mobiscan.CLI",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\Mobiscan.CLI.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj",
+        "projectName": "Mobiscan.Core",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj",
+        "projectName": "Mobiscan.DependencyScanner",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj",
+        "projectName": "Mobiscan.FixEngine",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj",
+        "projectName": "Mobiscan.Reporting",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj",
+        "projectName": "Mobiscan.ReverseAnalyzer",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj",
+        "projectName": "Mobiscan.RuleEngine",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj",
+        "projectName": "Mobiscan.ScanEngine",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj",
+        "projectName": "Mobiscan.SecretScanner",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj",
+        "projectName": "Mobiscan.WatchMode",
+        "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj",
+        "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+              },
+              "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj": {
+                "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

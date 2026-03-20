@@ -1,0 +1,38 @@
+[
+  {
+    "id": "IOS_ATS_DISABLED",
+    "title": "App Transport Security disabled",
+    "severity": "High",
+    "pattern": "NSAllowsArbitraryLoads\\s*</key>\\s*<true/>",
+    "description": "ATS disabled allows insecure HTTP traffic",
+    "recommendation": "Enable ATS or limit exceptions to trusted domains",
+    "fix": "enable_ats",
+    "owaspCategory": "M3: Insecure Communication",
+    "platform": "ios",
+    "targetFiles": ["Info.plist"]
+  },
+  {
+    "id": "IOS_INSECURE_HTTP",
+    "title": "Insecure HTTP usage",
+    "severity": "Medium",
+    "pattern": "http://",
+    "description": "Plain HTTP usage can expose data in transit",
+    "recommendation": "Use HTTPS for all network traffic",
+    "fix": "replace_http",
+    "owaspCategory": "M3: Insecure Communication",
+    "platform": "ios",
+    "targetFiles": []
+  },
+  {
+    "id": "IOS_DEBUG_BUILD",
+    "title": "Debug-only code found",
+    "severity": "Low",
+    "pattern": "#if\\s+DEBUG",
+    "description": "Debug-only code may expose internal functionality",
+    "recommendation": "Remove or guard debug-only code from production builds",
+    "fix": "remove_debug_blocks",
+    "owaspCategory": "M7: Client Code Quality",
+    "platform": "ios",
+    "targetFiles": []
+  }
+]

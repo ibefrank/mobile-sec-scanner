@@ -1,0 +1,432 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "System.CommandLine/2.0.0-beta4.22272.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CommandLine.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CommandLine.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/net6.0/cs/System.CommandLine.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0/de/System.CommandLine.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/es/System.CommandLine.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0/fr/System.CommandLine.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0/it/System.CommandLine.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0/ja/System.CommandLine.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0/ko/System.CommandLine.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0/pl/System.CommandLine.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0/pt-BR/System.CommandLine.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0/ru/System.CommandLine.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0/tr/System.CommandLine.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0/zh-Hans/System.CommandLine.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0/zh-Hant/System.CommandLine.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Mobiscan.Analyzers.Android/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0",
+          "Mobiscan.RuleEngine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.Analyzers.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.Analyzers.Android.dll": {}
+        }
+      },
+      "Mobiscan.Analyzers.iOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0",
+          "Mobiscan.RuleEngine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.Analyzers.iOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.Analyzers.iOS.dll": {}
+        }
+      },
+      "Mobiscan.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Mobiscan.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.Core.dll": {}
+        }
+      },
+      "Mobiscan.DependencyScanner/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.DependencyScanner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.DependencyScanner.dll": {}
+        }
+      },
+      "Mobiscan.FixEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.FixEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.FixEngine.dll": {}
+        }
+      },
+      "Mobiscan.Reporting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.Reporting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.Reporting.dll": {}
+        }
+      },
+      "Mobiscan.ReverseAnalyzer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.ReverseAnalyzer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.ReverseAnalyzer.dll": {}
+        }
+      },
+      "Mobiscan.RuleEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.RuleEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.RuleEngine.dll": {}
+        }
+      },
+      "Mobiscan.ScanEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0",
+          "Mobiscan.RuleEngine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.ScanEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.ScanEngine.dll": {}
+        }
+      },
+      "Mobiscan.SecretScanner/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.SecretScanner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.SecretScanner.dll": {}
+        }
+      },
+      "Mobiscan.WatchMode/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Mobiscan.Core": "1.0.0",
+          "Mobiscan.ScanEngine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mobiscan.WatchMode.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobiscan.WatchMode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.CommandLine/2.0.0-beta4.22272.1": {
+      "sha512": "1uqED/q2H0kKoLJ4+hI2iPSBSEdTuhfCYADeJrAqERmiGQ2NNacYKRNEQ+gFbU4glgVyK8rxI+ZOe1onEtr/Pg==",
+      "type": "package",
+      "path": "system.commandline/2.0.0-beta4.22272.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/System.CommandLine.dll",
+        "lib/net6.0/System.CommandLine.pdb",
+        "lib/net6.0/System.CommandLine.xml",
+        "lib/net6.0/cs/System.CommandLine.resources.dll",
+        "lib/net6.0/de/System.CommandLine.resources.dll",
+        "lib/net6.0/es/System.CommandLine.resources.dll",
+        "lib/net6.0/fr/System.CommandLine.resources.dll",
+        "lib/net6.0/it/System.CommandLine.resources.dll",
+        "lib/net6.0/ja/System.CommandLine.resources.dll",
+        "lib/net6.0/ko/System.CommandLine.resources.dll",
+        "lib/net6.0/pl/System.CommandLine.resources.dll",
+        "lib/net6.0/pt-BR/System.CommandLine.resources.dll",
+        "lib/net6.0/ru/System.CommandLine.resources.dll",
+        "lib/net6.0/tr/System.CommandLine.resources.dll",
+        "lib/net6.0/zh-Hans/System.CommandLine.resources.dll",
+        "lib/net6.0/zh-Hant/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/System.CommandLine.dll",
+        "lib/netstandard2.0/System.CommandLine.pdb",
+        "lib/netstandard2.0/System.CommandLine.xml",
+        "lib/netstandard2.0/cs/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/de/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/es/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/fr/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/it/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/ja/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/ko/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/pl/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/pt-BR/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/ru/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/tr/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/zh-Hans/System.CommandLine.resources.dll",
+        "lib/netstandard2.0/zh-Hant/System.CommandLine.resources.dll",
+        "system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+        "system.commandline.nuspec"
+      ]
+    },
+    "Mobiscan.Analyzers.Android/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.Analyzers.Android/Mobiscan.Analyzers.Android.csproj",
+      "msbuildProject": "../Mobiscan.Analyzers.Android/Mobiscan.Analyzers.Android.csproj"
+    },
+    "Mobiscan.Analyzers.iOS/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.Analyzers.iOS/Mobiscan.Analyzers.iOS.csproj",
+      "msbuildProject": "../Mobiscan.Analyzers.iOS/Mobiscan.Analyzers.iOS.csproj"
+    },
+    "Mobiscan.Core/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.Core/Mobiscan.Core.csproj",
+      "msbuildProject": "../Mobiscan.Core/Mobiscan.Core.csproj"
+    },
+    "Mobiscan.DependencyScanner/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.DependencyScanner/Mobiscan.DependencyScanner.csproj",
+      "msbuildProject": "../Mobiscan.DependencyScanner/Mobiscan.DependencyScanner.csproj"
+    },
+    "Mobiscan.FixEngine/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.FixEngine/Mobiscan.FixEngine.csproj",
+      "msbuildProject": "../Mobiscan.FixEngine/Mobiscan.FixEngine.csproj"
+    },
+    "Mobiscan.Reporting/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.Reporting/Mobiscan.Reporting.csproj",
+      "msbuildProject": "../Mobiscan.Reporting/Mobiscan.Reporting.csproj"
+    },
+    "Mobiscan.ReverseAnalyzer/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.ReverseAnalyzer/Mobiscan.ReverseAnalyzer.csproj",
+      "msbuildProject": "../Mobiscan.ReverseAnalyzer/Mobiscan.ReverseAnalyzer.csproj"
+    },
+    "Mobiscan.RuleEngine/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.RuleEngine/Mobiscan.RuleEngine.csproj",
+      "msbuildProject": "../Mobiscan.RuleEngine/Mobiscan.RuleEngine.csproj"
+    },
+    "Mobiscan.ScanEngine/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.ScanEngine/Mobiscan.ScanEngine.csproj",
+      "msbuildProject": "../Mobiscan.ScanEngine/Mobiscan.ScanEngine.csproj"
+    },
+    "Mobiscan.SecretScanner/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.SecretScanner/Mobiscan.SecretScanner.csproj",
+      "msbuildProject": "../Mobiscan.SecretScanner/Mobiscan.SecretScanner.csproj"
+    },
+    "Mobiscan.WatchMode/1.0.0": {
+      "type": "project",
+      "path": "../Mobiscan.WatchMode/Mobiscan.WatchMode.csproj",
+      "msbuildProject": "../Mobiscan.WatchMode/Mobiscan.WatchMode.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Mobiscan.Analyzers.Android >= 1.0.0",
+      "Mobiscan.Analyzers.iOS >= 1.0.0",
+      "Mobiscan.Core >= 1.0.0",
+      "Mobiscan.DependencyScanner >= 1.0.0",
+      "Mobiscan.FixEngine >= 1.0.0",
+      "Mobiscan.Reporting >= 1.0.0",
+      "Mobiscan.ReverseAnalyzer >= 1.0.0",
+      "Mobiscan.RuleEngine >= 1.0.0",
+      "Mobiscan.ScanEngine >= 1.0.0",
+      "Mobiscan.SecretScanner >= 1.0.0",
+      "Mobiscan.WatchMode >= 1.0.0",
+      "System.CommandLine >= 2.0.0-beta4.22272.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GIKSTA\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\Mobiscan.CLI.csproj",
+      "projectName": "Mobiscan.CLI",
+      "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\Mobiscan.CLI.csproj",
+      "packagesPath": "C:\\Users\\GIKSTA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.CLI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\GIKSTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.Android\\Mobiscan.Analyzers.Android.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Analyzers.iOS\\Mobiscan.Analyzers.iOS.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Core\\Mobiscan.Core.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.DependencyScanner\\Mobiscan.DependencyScanner.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.FixEngine\\Mobiscan.FixEngine.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.Reporting\\Mobiscan.Reporting.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ReverseAnalyzer\\Mobiscan.ReverseAnalyzer.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.RuleEngine\\Mobiscan.RuleEngine.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.ScanEngine\\Mobiscan.ScanEngine.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.SecretScanner\\Mobiscan.SecretScanner.csproj"
+            },
+            "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj": {
+              "projectPath": "C:\\Users\\GIKSTA\\Desktop\\Mobiscan\\src\\Mobiscan.WatchMode\\Mobiscan.WatchMode.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "System.CommandLine": {
+            "target": "Package",
+            "version": "[2.0.0-beta4.22272.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

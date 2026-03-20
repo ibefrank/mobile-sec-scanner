@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mobiscan.Core\Mobiscan.Core.csproj" />
+    <ProjectReference Include="..\Mobiscan.ScanEngine\Mobiscan.ScanEngine.csproj" />
+    <ProjectReference Include="..\Mobiscan.RuleEngine\Mobiscan.RuleEngine.csproj" />
+    <ProjectReference Include="..\Mobiscan.Analyzers.Android\Mobiscan.Analyzers.Android.csproj" />
+    <ProjectReference Include="..\Mobiscan.Analyzers.iOS\Mobiscan.Analyzers.iOS.csproj" />
+    <ProjectReference Include="..\Mobiscan.DependencyScanner\Mobiscan.DependencyScanner.csproj" />
+    <ProjectReference Include="..\Mobiscan.SecretScanner\Mobiscan.SecretScanner.csproj" />
+    <ProjectReference Include="..\Mobiscan.ReverseAnalyzer\Mobiscan.ReverseAnalyzer.csproj" />
+    <ProjectReference Include="..\Mobiscan.FixEngine\Mobiscan.FixEngine.csproj" />
+    <ProjectReference Include="..\Mobiscan.Reporting\Mobiscan.Reporting.csproj" />
+    <ProjectReference Include="..\Mobiscan.WatchMode\Mobiscan.WatchMode.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\rules\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\cve\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

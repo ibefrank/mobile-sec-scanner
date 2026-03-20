@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ANDROID_DEBUG_ENABLED",
+    "title": "Android debug mode enabled",
+    "severity": "Medium",
+    "pattern": "android:debuggable\\s*=\\s*\\\"true\\\"",
+    "description": "Debug mode should not be enabled in production builds",
+    "recommendation": "Set android:debuggable to false in AndroidManifest.xml",
+    "fix": "set_debuggable_false",
+    "owaspCategory": "M7: Client Code Quality",
+    "platform": "android",
+    "targetFiles": ["AndroidManifest.xml"]
+  },
+  {
+    "id": "ANDROID_CLEARTEXT_TRAFFIC",
+    "title": "Cleartext traffic allowed",
+    "severity": "High",
+    "pattern": "android:usesCleartextTraffic\\s*=\\s*\\\"true\\\"",
+    "description": "Cleartext traffic allows sensitive data to be intercepted",
+    "recommendation": "Disable cleartext traffic and enforce HTTPS",
+    "fix": "disable_cleartext",
+    "owaspCategory": "M3: Insecure Communication",
+    "platform": "android",
+    "targetFiles": ["AndroidManifest.xml"]
+  },
+  {
+    "id": "ANDROID_WEBVIEW_JS",
+    "title": "WebView JavaScript enabled",
+    "severity": "Medium",
+    "pattern": "setJavaScriptEnabled\\s*\\(\\s*true\\s*\\)",
+    "description": "Enabling JavaScript in WebView can introduce injection risks",
+    "recommendation": "Disable JavaScript unless required and validate content",
+    "fix": "disable_webview_js",
+    "owaspCategory": "M7: Client Code Quality",
+    "platform": "android",
+    "targetFiles": []
+  },
+  {
+    "id": "ANDROID_WEBVIEW_FILE_ACCESS",
+    "title": "WebView file access enabled",
+    "severity": "Medium",
+    "pattern": "setAllowFileAccess\\s*\\(\\s*true\\s*\\)",
+    "description": "Allowing file access in WebView can expose local files",
+    "recommendation": "Disable file access unless necessary",
+    "fix": "disable_webview_file_access",
+    "owaspCategory": "M7: Client Code Quality",
+    "platform": "android",
+    "targetFiles": []
+  },
+  {
+    "id": "ANDROID_WEBVIEW_UNIVERSAL_ACCESS",
+    "title": "WebView universal access enabled",
+    "severity": "High",
+    "pattern": "setAllowUniversalAccessFromFileURLs\\s*\\(\\s*true\\s*\\)",
+    "description": "Universal access from file URLs can expose sensitive data",
+    "recommendation": "Disable universal access from file URLs",
+    "fix": "disable_webview_universal_access",
+    "owaspCategory": "M7: Client Code Quality",
+    "platform": "android",
+    "targetFiles": []
+  }
+]
