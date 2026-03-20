@@ -14,7 +14,7 @@ Mobiscan is a cross-platform C# command-line security tool that scans mobile app
 - Reports in CLI, JSON, and HTML formats
 
 ## Requirements
-- .NET 8 SDK
+- .NET 8 SDK and  above
 - Windows, macOS, or Linux
 
 ## Installation
